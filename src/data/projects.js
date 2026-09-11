@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: "Web Layanan Dekorasi Surya Asih",
+    title: "Website Layanan Dekorasi Surya Asih",
     desc: "Website untuk menampilkan layanan dekorasi, perlengkapan acara, dan berbagai informasi seputar Surya Asih.",
     tags: ["React", "Express", "Bootstrap", "MySQL"],
     image: "/suryasih.jpg",
     url: "https://suryasih.my.id",
   },
   {
-    title: "Web Rajut Cravelle",
+    title: "Website Rajut Cravelle",
     desc: "Website untuk menampilkan berbagai produk rajut, kategori, artikel, dan informasi produk.",
     tags: ["React", "Express", "Bootstrap", "MySQL"],
     image: "/cravelle.jpg",
@@ -28,7 +28,7 @@ export const projects = [
   {
     title: "Website Inventaris Barang",
     desc: "Website untuk mengelola dan menampilkan data barang, kategori, harga, serta stok secara terstruktur.",
-    tags: ["React", "Express", "Bootstrap", "MySQL"],
+    tags: ["React", "Express", "Bootstrap", "PostgreSQL"],
     image: "/synventory.jpg",
   },
 ];
