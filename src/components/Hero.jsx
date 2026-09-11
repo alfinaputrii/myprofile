@@ -6,7 +6,7 @@ export default function Hero() {
       </div>
       <h1>
         <span className="line">
-          <span>Belajar, berkembang dan</span>
+          <span>Membangun, belajar dan</span>
         </span>
         <span className="line">
           <span>
