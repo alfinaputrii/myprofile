@@ -6,7 +6,7 @@ export default function Projects() {
     <section className="work" id="project">
       <div className="kicker">Project</div>
       <h2 className="section-title">
-        Beberapa project yang pernah dikerjakan.
+        Beberapa proyek yang pernah dikerjakan.
       </h2>
       <div className="row g-4 project-grid-row">
         {projects.map((p) => (

@@ -6,16 +6,16 @@ export default function Hero() {
       </div>
       <h1>
         <span className="line">
-          <span>A work in progress</span>
+          <span>Belajar, berkembang dan</span>
         </span>
         <span className="line">
           <span>
-            built <em> with </em> code.
+            berkembang <em> melalui </em> kode.
           </span>
         </span>
       </h1>
       <p className="role">
-        Saya Syarla Alfina Rahmaputri, siswi Rekayasa Perangkat Lunak yang sedang belajar dan berkembang melalui berbagai project. Setiap project menjadi kesempatan untuk memahami web development dan mengubah ide menjadi sesuatu yang dapat digunakan.
+        Saya Syarla Alfina Rahmaputri, siswi Rekayasa Perangkat Lunak yang sedang belajar dan berkembang melalui berbagai proyek. Setiap proyek menjadi kesempatan untuk memahami web development dan mengubah ide menjadi sesuatu yang dapat digunakan.
       </p>
       <div className="cta-row pb-5">
         <a href="#project" className="btn-primary text-decoration-none">
