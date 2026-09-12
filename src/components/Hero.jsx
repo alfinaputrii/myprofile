@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <header className="hero container-wrap" id="home">
       <div className="hero-kicker">
-        RPL student
+        Siswi RPL
       </div>
       <h1>
         <span className="line">

@@ -39,7 +39,7 @@ export default function TechStack() {
   const doubled = [...stack, ...stack];
   return (
     <section className="skills">
-      <div className="kicker">Tech Stack</div>
+      <div className="kicker">Teknologi</div>
       <div className="drift-track">
         {doubled.map((s, i) => (
           <span

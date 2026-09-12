@@ -4,7 +4,7 @@ import { projects } from "../data/projects";
 export default function Projects() {
   return (
     <section className="work" id="project">
-      <div className="kicker">Project</div>
+      <div className="kicker">Proyek</div>
       <h2 className="section-title">
         Beberapa proyek yang pernah dikerjakan.
       </h2>
