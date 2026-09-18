@@ -1,17 +1,14 @@
-import ProjectCard from "./ProjectCard";
-import { projects } from "../data/projects";
+import Card from "../../components/card";
+import { projects } from "../../data/projects";
 
-export default function Projects() {
+export default function Karya() {
   return (
-    <section className="work" id="project">
-      <div className="kicker">Proyek</div>
-      <h2 className="section-title">
-        Beberapa proyek yang pernah dikerjakan.
-      </h2>
+    <div className="sub-block">
+      <h3 className="sub-title">Karya</h3>
       <div className="row g-4 project-grid-row">
         {projects.map((p) => (
           <div className="col-md-6" key={p.title}>
-            <ProjectCard
+            <Card
               title={p.title}
               desc={p.desc}
               tags={p.tags}
@@ -21,6 +18,6 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 }
