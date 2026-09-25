@@ -7,7 +7,7 @@ import Pengalaman from "./Pengalaman";
 const tabs = [
   { id: "keahlian", label: "Keahlian" },
   { id: "karya", label: "Karya" },
-  { id: "sertfikat", label: "Sertfikat" },
+  { id: "sertifikat", label: "Sertifikat" },
 ];
 
 export default function Portofolio() {
@@ -17,10 +17,10 @@ export default function Portofolio() {
     <section className="work" id="portofolio">
       <div className="pf-header">
         <div className="kicker">Portofolio</div>
-        <h2 className="pf-title">Portfolio Showcase</h2>
+        <h2 className="pf-title">Karya & Perjalanan</h2>
         <p className="pf-sub">
-          Explore my journey through projects, certifications, and technical
-          expertise.
+          Jelajahi karya, sertifikat, dan keahlian yang saya bangun selama
+          belajar di dunia pengembangan web.
         </p>
       </div>
 
@@ -39,8 +39,9 @@ export default function Portofolio() {
       <div className="pf-content">
         {active === "keahlian" && <Keahlian />}
         {active === "karya" && <Karya />}
-        {active === "sertfikat" && <Sertifikat />}
+        {active === "sertifikat" && <Sertifikat />}
       </div>
+
       <Pengalaman />
     </section>
   );
